@@ -53,7 +53,6 @@ Follow these instructions to get the project up and running locally or inside a 
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/sarvesh172000/git-learning.git](https://github.com/sarvesh172000/flask-docker-table-app.git)
-   cd git-learning
    ```
 
 2. **Create a virtual environment**
