@@ -54,24 +54,17 @@ Follow these instructions to get the project up and running locally or inside a 
    ```bash
    git clone [https://github.com/sarvesh172000/git-learning.git](https://github.com/sarvesh172000/flask-docker-table-app.git)
    ```
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Start the Flask app**
+3. **Start the Flask app**
    ```bash
    python app.py
    ```
 
-5. Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+4. Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ---
 
@@ -88,7 +81,7 @@ Follow these instructions to get the project up and running locally or inside a 
 
 2. **Run the Docker container**
    ```bash
-   docker run -p 5000:8000 your-dockerhub-username/flask-table-app
+   docker run -p 8888:8000 your-dockerhub-username/flask-table-app
    ```
 
 3. Open your browser and go to: [http://localhost:8000](http://localhost:8000)
