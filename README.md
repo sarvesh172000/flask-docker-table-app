@@ -52,7 +52,7 @@ Follow these instructions to get the project up and running locally or inside a 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sarvesh172000/git-learning.git
+   git clone [https://github.com/sarvesh172000/git-learning.git](https://github.com/sarvesh172000/flask-docker-table-app.git)
    cd git-learning
    ```
 
@@ -72,7 +72,7 @@ Follow these instructions to get the project up and running locally or inside a 
    python app.py
    ```
 
-5. Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+5. Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ---
 
@@ -92,7 +92,7 @@ Follow these instructions to get the project up and running locally or inside a 
    docker run -p 5000:8000 your-dockerhub-username/flask-table-app
    ```
 
-3. Open your browser and go to: [http://localhost:5000](http://localhost:5000)
+3. Open your browser and go to: [http://localhost:8000](http://localhost:8000)
 
 ---
 
