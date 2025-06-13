@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 8px; font-size: 16px; }
+        button { padding: 8px 15px; font-size: 16px; }
+        .table-result { margin-top: 30px; font-size: 1.2em; }
+        ul { list-style-type: none; padding: 0; }
+    </style>
+</head>
+<body>
+
+    <h1>Multiplication Table Generator</h1>
+
+    <form method="POST">
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">Generate Table</button>
+    </form>
+
+    {% if table %}
+    <div class="table-result">
+        <h2>Table Results:</h2>
+        <ul>
+            {% for line in table %}
+                <li>{{ line }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+</body>
+</html>
