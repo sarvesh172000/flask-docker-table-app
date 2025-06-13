@@ -113,7 +113,3 @@ This project is ideal for:
 - Understanding the basics of building and deploying microservices.
 
 ---
-
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
